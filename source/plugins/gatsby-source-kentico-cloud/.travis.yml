@@ -1,0 +1,25 @@
+dist: trusty
+language: node_js
+node_js:
+- "stable"
+addons:
+  chrome: stable
+before_script:
+- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+- chmod +x ./cc-test-reporter
+- ./cc-test-reporter before-build
+script:
+- npm run lint
+- npm run coverage
+after_script:
+- ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+notifications:
+  email: false
+deploy:
+ provider: npm
+ email: $NPM_EMAIL
+ api_key: $NPM_API_KEY
+ skip_cleanup: true
+ # tag: beta # uncomment for beta release
+ on:
+   tags: true

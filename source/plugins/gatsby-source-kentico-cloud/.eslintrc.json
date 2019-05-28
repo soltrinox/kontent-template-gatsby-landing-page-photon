@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": false,
+    "node": true
+  },
+  "extends": [
+    "plugin:node/recommended",
+    "google"
+  ],
+  "rules": {
+    "linebreak-style": 0,
+    "indent": [
+      "error",
+      2
+    ],
+    "object-curly-spacing": "off",
+    "require-jsdoc": "off"
+  }
+}
