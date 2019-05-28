@@ -24,6 +24,7 @@ exports.sourceNodes =
     console.info(`Generating Kentico Cloud nodes for projectId:\
  ${_.get(deliveryClientConfig, 'projectId')}`);
     console.info(`Provided language codenames: ${languageCodenames}.`);
+    console.info(`GATSBY PREVIEW DEVELOPMENT VERSION`);
 
     validation.validateLanguageCodenames(languageCodenames);
     const defaultLanguageCodename = languageCodenames[0];
