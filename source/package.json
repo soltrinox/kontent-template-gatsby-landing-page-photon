@@ -28,9 +28,14 @@
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sass": "^2.0.7",
     "node-sass": "^4.11.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "change-case": "^3.1.0",
+    "flatted": "^2.0.0",
+    "kentico-cloud-delivery": "^5.7.2",
+    "lodash": "^4.17.11",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "rxjs": "^6.4.0"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
