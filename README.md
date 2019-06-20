@@ -1,6 +1,6 @@
 # Kentico Cloud & GatsbyJs web template
 
-
+![Gatsby preview](/gatsby-preview-v0.gif)
 
 Kentico cloud web template using Gatsby and Kentico Cloud.
 
