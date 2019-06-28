@@ -1,8 +1,10 @@
 # Kentico Cloud & GatsbyJs web template
 
-[![Preview](https://img.shields.io/badge/-Preview-brightgreen.svg)](https://cloud-template-gatsby.surge.sh/)
 
-Kentico cloud web template using Gatsby and Kentico Cloud.
+
+Adjusted Kentico cloud web template using Gatsby and Kentico Cloud utilizing  [Gatstby Preview Custom element](https://github.com/Simply007/gatsby-preview-custom-element) to notify Gatsby environment about the changes in the content.
+
+![Gatsby preview](/gatsby-preview-v0.gif)
 
 ## Get started
 
