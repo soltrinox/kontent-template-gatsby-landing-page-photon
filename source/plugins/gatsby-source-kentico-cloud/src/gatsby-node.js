@@ -32,9 +32,10 @@ exports.sourceNodes =
     }
     else {
       console.info(`Last modified from last round: ${lastModified.toISOString()}`);
-      lastModified = new Date();
-      console.info(`Current last modified: ${lastModified.toISOString()}`);
     }
+    
+    lastModified = new Date();
+    console.info(`Current last modified: ${lastModified.toISOString()}`);
 
     validation.validateLanguageCodenames(languageCodenames);
     const defaultLanguageCodename = languageCodenames[0];
