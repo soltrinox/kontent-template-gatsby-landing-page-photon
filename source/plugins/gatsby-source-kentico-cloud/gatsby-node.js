@@ -26,6 +26,8 @@ const {
   customTrackingHeader
 } = require('./config');
 
+let lastModified;
+
 exports.sourceNodes = async ({
   actions: {
     createNode
@@ -39,6 +41,15 @@ exports.sourceNodes = async ({
  ${_.get(deliveryClientConfig, 'projectId')}`);
   console.info(`Provided language codenames: ${languageCodenames}.`);
   console.info(`GATSBY PREVIEW DEVELOPMENT VERSION`);
+
+  if (!lastModified) {
+    console.log(`This is the first round run!`);
+  } else {
+    console.info(`Last modified from last round: ${lastModified.toISOString()}`);
+    lastModified = new Date();
+    console.info(`Current last modified: ${lastModified.toISOString()}`);
+  }
+
   validation.validateLanguageCodenames(languageCodenames);
   const defaultLanguageCodename = languageCodenames[0];
   const nonDefaultLanguageCodenames = languageCodenames.slice(1);
