@@ -142,4 +142,5 @@ const createContentItemNode =
 module.exports = {
   getFromDefaultLanguage,
   getFromNonDefaultLanguage,
+  createContentItemNode,
 };

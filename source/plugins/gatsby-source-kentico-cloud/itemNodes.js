@@ -99,5 +99,6 @@ const createContentItemNode = (createNodeId, contentItem, contentTypeNodes) => {
 
 module.exports = {
   getFromDefaultLanguage,
-  getFromNonDefaultLanguage
+  getFromNonDefaultLanguage,
+  createContentItemNode
 };

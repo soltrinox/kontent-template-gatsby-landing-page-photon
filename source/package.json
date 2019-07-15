@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "cross-env ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -38,6 +38,7 @@
     "rxjs": "^6.4.0"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "prettier": "^1.14.2"
   }
 }
