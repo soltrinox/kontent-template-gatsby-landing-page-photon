@@ -15,6 +15,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "develop-preview": "cross-env ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -35,6 +36,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "prettier": "^1.14.2"
   }
 }

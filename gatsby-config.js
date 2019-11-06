@@ -10,7 +10,9 @@ module.exports = {
       resolve: '@kentico/gatsby-source-kontent',
       options: {
         deliveryClientConfig: {
-          projectId: 'be4a893e-e87c-00e3-c66a-203a876e058a',
+          projectId: '5e171834-8697-00d6-08fa-fdd643306171',
+          enablePreviewMode: true,
+          previewApiKey: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0ZDYwYzVmMGI3NjU0Yzg2ODRiMTE5NjExZmIyYzRlOSIsImlhdCI6IjE1NTkwNjA2MDAiLCJleHAiOiIxOTA0NjYwNjAwIiwicHJvamVjdF9pZCI6IjVlMTcxODM0ODY5NzAwZDYwOGZhZmRkNjQzMzA2MTcxIiwidmVyIjoiMS4wLjAiLCJhdWQiOiJwcmV2aWV3LmRlbGl2ZXIua2VudGljb2Nsb3VkLmNvbSJ9.IgFxwaWUSOo8BzC4SJvnv2srvsE34Sg0dojhK4HoOKg',
           typeResolvers: []
         },
         languageCodenames: [
