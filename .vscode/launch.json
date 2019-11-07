@@ -25,7 +25,7 @@
       "internalConsoleOptions": "neverOpen",
       "env": {
         "NODE_ENV": "development",
-        "DEBUG": "gatsby:*"
+        "ENABLE_GATSBY_REFRESH_ENDPOINT": "true"
       },
       "console": "integratedTerminal",
       "sourceMaps": false,
