@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@kentico/gatsby-source-kontent": "^4.0.0-beta2",
-    "gatsby": "^2.0.76",
+    "gatsby": "^2.17.15",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",
