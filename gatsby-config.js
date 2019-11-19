@@ -19,7 +19,9 @@ module.exports = {
         },
         languageCodenames: [
           `default`
-        ]
+        ],
+        enableLogging: true,
+        includeRawContent: true,
       }
     },
     {
