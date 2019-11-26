@@ -10,7 +10,7 @@ module.exports = {
       resolve: '@kentico/gatsby-source-kontent',
       options: {
         deliveryClientConfig: {
-          projectId: 'be4a893e-e87c-00e3-c66a-203a876e058a',
+          projectId: '87078027-b95e-0065-18bb-0bc9773c128d',
           typeResolvers: []
         },
         languageCodenames: [
